@@ -1,4 +1,6 @@
-# Overview
+# Resume
+
+[![Build Status](https://circleci.com/gh/fartbagxp/resume.svg?style=shield)](https://circleci.com/gh/fartbagxp/)
 
 Writing my resume using [hackmyresume](https://github.com/hacksalot/HackMyResume) and [CircleCI](https://circleci.com/).
 
