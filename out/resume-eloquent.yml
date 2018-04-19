@@ -1,0 +1,101 @@
+basics:
+  name: 'Boris Ning'
+  label: 'Software Engineer'
+  summary: 'A backend engineer committed to becoming a full stack engineer involved with cloud computing and various technology stacks'
+  email: borisyning@gmail.com
+  location:
+    address: ""
+    postalCode: '20171'
+    city: Herndon
+    countryCode: US
+    region: Virginia
+  profiles:
+    -
+      network: GitHub
+      username: fartbagxp
+      url: 'https://github.com/fartbagxp'
+work:
+  -
+    company: Neustar
+    position: 'Software Engineer - DevOp'
+    startDate: '2016-04-25'
+    summary: 'Supported a customer facing platform for DDOS protection while enhancing visibility to customer network traffic.'
+    highlights:
+      - 'Migrated a monolithic application to microservices on AWS for high availability, better testing, and simplier deployment.'
+      - 'Recreated continuous integration / continuous deployment chain using Ansible, Kubernetes, and Gitlab.'
+      - 'Built a network traffic application for visualizing aggregating feeds from various network sensors.'
+      - 'Automated scripts for detecting issues and fixing them to eliminate costly pages from PagerDuty'
+  -
+    company: 'The Boeing Company'
+    position: 'Software Engineer'
+    startDate: '2010-07-20'
+    endDate: '2016-04-11'
+    summary: 'Researched and developed high performance applications utilizing the latest technologies at the time such as ReactJS and Redux for user interfaces, NodeJS for backend servers and webservices, LokiJS and Cassandra for databases, and Elastic search and Kibana for data analytics.'
+    highlights:
+      - 'Led a team in research and development in exploitation of devices for security vulnerabilities.'
+      - 'Created a map application displaying analytics for commercial cell tower signal range.'
+      - 'Developed a web application for searching and filtering of device identifiers.'
+      - 'Enhanced libraries used for high performance C++ signal processing for cellular protocols.'
+education:
+  -
+    institution: 'Johns Hopkins University'
+    area: 'Computer Science'
+    studyType: Master
+    startDate: '2011-02-04'
+    endDate: '2014-05-30'
+  -
+    institution: 'Rensselaer Polytechnic Institute'
+    area: 'Computer Science and Mathematics'
+    studyType: Bachelor
+    startDate: '2006-09-01'
+    endDate: '2010-05-28'
+awards:
+  -
+    title: '2014 Team of the Year - Boeing N&SS - E&IS'
+    date: '2015-02-01'
+    awarder: Boeing
+    summary: 'Part of a team that demonstrated key capabilities in multi-antenna digital signal processing.'
+skills:
+  -
+    name: 'Backend Development'
+    keywords:
+      - NodeJS
+      - Java
+      - Go
+      - C++
+  -
+    name: 'Cloud Development'
+    keywords:
+      - AWS
+      - GCE
+      - Kubernetes
+      - Docker
+      - Promethesus
+      - Ansible
+  -
+    name: Database
+    keywords:
+      - Postgres
+      - Redis
+      - MongoDB
+  -
+    name: 'Frontend Development'
+    keywords:
+      - Javascript
+      - ReactJS
+      - CSS
+      - HTML
+interests:
+  -
+    name: 'Vulnerability Testing'
+    keywords:
+      - 'Burp Suite'
+      - 'Subdomain enumeration'
+      - 'Kali Linux'
+  -
+    name: 'Signal exploration'
+    keywords:
+      - 'Software Defined Radios (SDR)'
+      - '802.11 Wi-Fi'
+      - Bluetooth
+      - 'Ham Radio'

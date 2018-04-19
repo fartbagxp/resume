@@ -1,0 +1,37 @@
+# Copied from https://www.github.com/askldjd/.circleci/config.yml
+
+version: 2
+jobs:
+  build:
+    docker:
+      - image: node:9.9.0
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
+
+      # This is the slowest part of the build and should be moved to the base 
+      # image. However, I don't want to maintain a custom image just for this
+      # repo. I am letting this go for now.
+      - run:
+          name: install wkhtmltopdf
+          command: |
+            apt-get update && apt-get install -y wkhtmltopdf
+      - run: npm install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+      
+      - run: npm run validate
+
+      - run: npm run analyze
+
+      - run: npm run build

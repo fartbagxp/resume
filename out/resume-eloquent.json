@@ -1,0 +1,150 @@
+{
+  "name": "Boris Ning",
+  "info": {
+    "label": "Software Engineer",
+    "brief": "A backend engineer committed to becoming a full stack engineer involved with cloud computing and various technology stacks"
+  },
+  "contact": {
+    "email": "borisyning@gmail.com"
+  },
+  "meta": {
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2018-04-19T22:35:07.780Z"
+  },
+  "location": {
+    "city": "Herndon",
+    "region": "Virginia",
+    "country": "US",
+    "code": "20171",
+    "address": ""
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Software Engineer - DevOp",
+        "employer": "Neustar",
+        "summary": "Supported a customer facing platform for DDOS protection while enhancing visibility to customer network traffic.",
+        "current": true,
+        "start": "2016-04-25",
+        "keywords": [],
+        "highlights": [
+          "Migrated a monolithic application to microservices on AWS for high availability, better testing, and simplier deployment.",
+          "Recreated continuous integration / continuous deployment chain using Ansible, Kubernetes, and Gitlab.",
+          "Built a network traffic application for visualizing aggregating feeds from various network sensors.",
+          "Automated scripts for detecting issues and fixing them to eliminate costly pages from PagerDuty"
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "employer": "The Boeing Company",
+        "summary": "Researched and developed high performance applications utilizing the latest technologies at the time such as ReactJS and Redux for user interfaces, NodeJS for backend servers and webservices, LokiJS and Cassandra for databases, and Elastic search and Kibana for data analytics.",
+        "start": "2010-07-20",
+        "end": "2016-04-11",
+        "keywords": [],
+        "highlights": [
+          "Led a team in research and development in exploitation of devices for security vulnerabilities.",
+          "Created a map application displaying analytics for commercial cell tower signal range.",
+          "Developed a web application for searching and filtering of device identifiers.",
+          "Enhanced libraries used for high performance C++ signal processing for cellular protocols."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Johns Hopkins University",
+        "start": "2011-02-04",
+        "end": "2014-05-30",
+        "summary": "",
+        "area": "Computer Science",
+        "studyType": "Master"
+      },
+      {
+        "institution": "Rensselaer Polytechnic Institute",
+        "start": "2006-09-01",
+        "end": "2010-05-28",
+        "summary": "",
+        "area": "Computer Science and Mathematics",
+        "studyType": "Bachelor"
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Backend Development",
+        "skills": [
+          "NodeJS",
+          "Java",
+          "Go",
+          "C++"
+        ]
+      },
+      {
+        "name": "Cloud Development",
+        "skills": [
+          "AWS",
+          "GCE",
+          "Kubernetes",
+          "Docker",
+          "Promethesus",
+          "Ansible"
+        ]
+      },
+      {
+        "name": "Database",
+        "skills": [
+          "Postgres",
+          "Redis",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Frontend Development",
+        "skills": [
+          "Javascript",
+          "ReactJS",
+          "CSS",
+          "HTML"
+        ]
+      }
+    ]
+  },
+  "recognition": [
+    {
+      "title": "2014 Team of the Year - Boeing N&SS - E&IS",
+      "date": "2015-02-01",
+      "from": "Boeing",
+      "summary": "Part of a team that demonstrated key capabilities in multi-antenna digital signal processing."
+    }
+  ],
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "url": "https://github.com/fartbagxp",
+      "user": "fartbagxp"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Vulnerability Testing",
+      "keywords": [
+        "Burp Suite",
+        "Subdomain enumeration",
+        "Kali Linux"
+      ]
+    },
+    {
+      "name": "Signal exploration",
+      "keywords": [
+        "Software Defined Radios (SDR)",
+        "802.11 Wi-Fi",
+        "Bluetooth",
+        "Ham Radio"
+      ]
+    }
+  ]
+}
