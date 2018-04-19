@@ -1,6 +1,6 @@
 # Resume
 
-[![Build Status](https://circleci.com/gh/fartbagxp/resume.svg?style=shield)](https://circleci.com/gh/fartbagxp/)
+[![Build Status](https://circleci.com/gh/fartbagxp/resume/tree/gh-pages.svg?style=svg)](https://circleci.com/gh/fartbagxp/resume/tree/gh-pages)
 
 Writing my resume using [hackmyresume](https://github.com/hacksalot/HackMyResume) and [CircleCI](https://circleci.com/).
 
