@@ -18,4 +18,4 @@ Writing my resume using [hackmyresume](https://github.com/hacksalot/HackMyResume
     npm run build
 ```
 
-The output will be in the out file.
+The output will be in the out file and you can visit the web version [here](https://fartbagxp.github.io/resume/).
