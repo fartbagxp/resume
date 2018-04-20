@@ -23,15 +23,15 @@
   "work": [
     {
       "company": "Neustar",
-      "position": "Software Engineer - DevOp",
+      "position": "Software Engineer - DevOps",
       "startDate": "2016-04-25",
       "summary":
-        "Supported a customer facing platform for DDOS protection while enhancing visibility to customer network traffic.",
+        "Supported a customer facing DDOS protection platform while enhancing visibility to network traffic.",
       "highlights": [
-        "Migrated a monolithic application to microservices on AWS for high availability, better testing, and simplier deployment.",
-        "Recreated continuous integration / continuous deployment chain using Ansible, Kubernetes, and Gitlab.",
+        "Migrated a monolithic application to microservices on AWS for higher availability, better testing, and simplier deployment.",
+        "Created continuous integration / continuous deployment pipeline using Ansible, Kubernetes, and Gitlab.",
         "Built a network traffic application for visualizing aggregating feeds from various network sensors.",
-        "Automated scripts for detecting issues and fixing them to eliminate costly pages from PagerDuty."
+        "Automated scripts for detecting and resolving issues to eliminate costly pages from PagerDuty."
       ]
     },
     {
@@ -54,7 +54,11 @@
       "startDate": "2009-07-01",
       "endDate": "2009-12-01",
       "summary":
-        "Supported test frameworks to increase test coverage over legacy applications."
+        "Supported test frameworks to increase test coverage over legacy applications.",
+      "highlights": [
+        "Designed Matlab and LabVIEW scripts for controlling various lab equipments.",
+        "Prototyped and processed logs for common signal analysis."
+      ]
     }
   ],
   "education": [
@@ -120,6 +124,12 @@
         "Bluetooth",
         "Ham Radio"
       ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "Native speaker"
     }
   ]
 }
