@@ -24,18 +24,24 @@ work:
       - 'Migrated a monolithic application to microservices on AWS for high availability, better testing, and simplier deployment.'
       - 'Recreated continuous integration / continuous deployment chain using Ansible, Kubernetes, and Gitlab.'
       - 'Built a network traffic application for visualizing aggregating feeds from various network sensors.'
-      - 'Automated scripts for detecting issues and fixing them to eliminate costly pages from PagerDuty'
+      - 'Automated scripts for detecting issues and fixing them to eliminate costly pages from PagerDuty.'
   -
     company: 'The Boeing Company'
     position: 'Software Engineer'
     startDate: '2010-07-20'
     endDate: '2016-04-11'
-    summary: 'Researched and developed high performance applications utilizing the latest technologies at the time such as ReactJS and Redux for user interfaces, NodeJS for backend servers and webservices, LokiJS and Cassandra for databases, and Elastic search and Kibana for data analytics.'
+    summary: 'Developed high performance applications in embedded devices used in signal processing.'
     highlights:
       - 'Led a team in research and development in exploitation of devices for security vulnerabilities.'
       - 'Created a map application displaying analytics for commercial cell tower signal range.'
       - 'Developed a web application for searching and filtering of device identifiers.'
       - 'Enhanced libraries used for high performance C++ signal processing for cellular protocols.'
+  -
+    company: 'The Boeing Company'
+    position: 'Intern - Software Engineer'
+    startDate: '2009-07-01'
+    endDate: '2009-12-01'
+    summary: 'Supported test frameworks to increase test coverage over legacy applications.'
 education:
   -
     institution: 'Johns Hopkins University'
@@ -90,7 +96,6 @@ interests:
     name: 'Vulnerability Testing'
     keywords:
       - 'Burp Suite'
-      - 'Subdomain enumeration'
       - 'Kali Linux'
   -
     name: 'Signal exploration'

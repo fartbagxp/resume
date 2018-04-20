@@ -9,7 +9,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-04-19T23:18:22.524Z"
+    "modified": "2018-04-20T00:27:11.388Z"
   },
   "location": {
     "city": "Herndon",
@@ -31,13 +31,13 @@
           "Migrated a monolithic application to microservices on AWS for high availability, better testing, and simplier deployment.",
           "Recreated continuous integration / continuous deployment chain using Ansible, Kubernetes, and Gitlab.",
           "Built a network traffic application for visualizing aggregating feeds from various network sensors.",
-          "Automated scripts for detecting issues and fixing them to eliminate costly pages from PagerDuty"
+          "Automated scripts for detecting issues and fixing them to eliminate costly pages from PagerDuty."
         ]
       },
       {
         "position": "Software Engineer",
         "employer": "The Boeing Company",
-        "summary": "Researched and developed high performance applications utilizing the latest technologies at the time such as ReactJS and Redux for user interfaces, NodeJS for backend servers and webservices, LokiJS and Cassandra for databases, and Elastic search and Kibana for data analytics.",
+        "summary": "Developed high performance applications in embedded devices used in signal processing.",
         "start": "2010-07-20",
         "end": "2016-04-11",
         "keywords": [],
@@ -47,6 +47,14 @@
           "Developed a web application for searching and filtering of device identifiers.",
           "Enhanced libraries used for high performance C++ signal processing for cellular protocols."
         ]
+      },
+      {
+        "position": "Intern - Software Engineer",
+        "employer": "The Boeing Company",
+        "summary": "Supported test frameworks to increase test coverage over legacy applications.",
+        "start": "2009-07-01",
+        "end": "2009-12-01",
+        "keywords": []
       }
     ]
   },
@@ -133,7 +141,6 @@
       "name": "Vulnerability Testing",
       "keywords": [
         "Burp Suite",
-        "Subdomain enumeration",
         "Kali Linux"
       ]
     },
