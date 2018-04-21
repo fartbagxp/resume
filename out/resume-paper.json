@@ -9,7 +9,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-04-21T23:13:51.135Z"
+    "modified": "2018-04-21T23:21:51.172Z"
   },
   "location": {
     "city": "Herndon",
@@ -32,7 +32,7 @@
           "Created continuous integration / continuous deployment pipeline using Ansible, Kubernetes, and Gitlab CI.",
           "Built a network traffic application in NodeJS / React reusing the Vizceral project from Netflix for visualizing aggregating feeds from various network sensors",
           "Automated scripts for detecting and resolving issues to eliminate costly pages from PagerDuty.",
-          "Identified traffic patterns with Neustar security operations center (SOC) to mitigate DDOS attacks",
+          "Identified traffic patterns with Neustar security operations center (SOC) to mitigate DDOS attacks.",
           "Ensured proper monitoring for GRE tunnel failover in Juniper routers between primary and backup tunnel."
         ]
       },
