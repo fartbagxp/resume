@@ -2,14 +2,14 @@
   "name": "Boris Ning",
   "info": {
     "label": "Software Engineer",
-    "brief": "A backend engineer committed to becoming a full stack engineer involved with cloud computing and various technology stacks"
+    "brief": "An engineer looking to solve real world problems with realistic solutions across various technology stacks"
   },
   "contact": {
     "email": "borisyning@gmail.com"
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-04-20T06:27:19.105Z"
+    "modified": "2018-04-21T06:16:53.492Z"
   },
   "location": {
     "city": "Herndon",
@@ -28,10 +28,12 @@
         "start": "2016-04-25",
         "keywords": [],
         "highlights": [
-          "Migrated a monolithic application to microservices on AWS for higher availability, better testing, and simplier deployment.",
-          "Created continuous integration / continuous deployment pipeline using Ansible, Kubernetes, and Gitlab.",
-          "Built a network traffic application for visualizing aggregating feeds from various network sensors.",
-          "Automated scripts for detecting and resolving issues to eliminate costly pages from PagerDuty."
+          "Migrated a monolithic application to microservices in Golang on AWS for higher availability, better testing, and simplier deployment.",
+          "Created continuous integration / continuous deployment pipeline using Ansible, Kubernetes, and Gitlab CI.",
+          "Built a network traffic application in NodeJS / React reusing the Vizceral project from Netflix for visualizing aggregating feeds from various network sensors",
+          "Automated scripts for detecting and resolving issues to eliminate costly pages from PagerDuty.",
+          "Identified traffic patterns with Neustar security operations center (SOC) to mitigate DDOS attack on customers.",
+          "Ensured proper monitoring for GRE tunnel failover in Juniper routers between primary and backup tunnel."
         ]
       },
       {

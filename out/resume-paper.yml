@@ -1,7 +1,7 @@
 basics:
   name: 'Boris Ning'
   label: 'Software Engineer'
-  summary: 'A backend engineer committed to becoming a full stack engineer involved with cloud computing and various technology stacks'
+  summary: 'An engineer looking to solve real world problems with realistic solutions across various technology stacks'
   email: borisyning@gmail.com
   location:
     address: ""
@@ -21,10 +21,12 @@ work:
     startDate: '2016-04-25'
     summary: 'Supported a customer facing DDOS protection platform while enhancing visibility to network traffic.'
     highlights:
-      - 'Migrated a monolithic application to microservices on AWS for higher availability, better testing, and simplier deployment.'
-      - 'Created continuous integration / continuous deployment pipeline using Ansible, Kubernetes, and Gitlab.'
-      - 'Built a network traffic application for visualizing aggregating feeds from various network sensors.'
+      - 'Migrated a monolithic application to microservices in Golang on AWS for higher availability, better testing, and simplier deployment.'
+      - 'Created continuous integration / continuous deployment pipeline using Ansible, Kubernetes, and Gitlab CI.'
+      - 'Built a network traffic application in NodeJS / React reusing the Vizceral project from Netflix for visualizing aggregating feeds from various network sensors'
       - 'Automated scripts for detecting and resolving issues to eliminate costly pages from PagerDuty.'
+      - 'Identified traffic patterns with Neustar security operations center (SOC) to mitigate DDOS attack on customers.'
+      - 'Ensured proper monitoring for GRE tunnel failover in Juniper routers between primary and backup tunnel.'
   -
     company: 'The Boeing Company'
     position: 'Software Engineer'
