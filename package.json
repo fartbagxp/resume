@@ -1,21 +1,24 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "my resume starting 04/04/2018",
+  "description": "resume building",
   "main": "index.js",
   "scripts": {
     "analyze": "hackmyresume analyze resume.json",
     "build": "npm run build-eloquent && npm run build-paper",
-    "build-paper":
-      "hackmyresume build resume.json TO out/resume-paper.all -t node_modules/jsonresume-theme-paper",
-    "build-eloquent":
-      "hackmyresume build resume.json TO index.html -t node_modules/jsonresume-theme-eloquent"
+    "build-paper": "hackmyresume build resume.json TO out/resume-paper.all -t node_modules/jsonresume-theme-paper",
+    "build-eloquent": "hackmyresume build resume.json TO index.html -t node_modules/jsonresume-theme-eloquent"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fartbagxp/resume.git"
   },
-  "keywords": ["resume", "hackmyresume", "online", "resume"],
+  "keywords": [
+    "resume",
+    "hackmyresume",
+    "online",
+    "resume"
+  ],
   "author": "Boris Ning",
   "license": "MIT",
   "bugs": {

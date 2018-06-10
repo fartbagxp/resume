@@ -9,7 +9,7 @@
   },
   "meta": {
     "format": "FRESH@^1.0.0-beta",
-    "modified": "2018-04-21T23:21:51.172Z"
+    "modified": "2018-06-10T18:12:04.617Z"
   },
   "location": {
     "city": "Herndon",
@@ -24,8 +24,8 @@
         "position": "Software Engineer - DevOps",
         "employer": "Neustar",
         "summary": "Supported a customer facing DDOS protection platform while enhancing visibility to network traffic.",
-        "current": true,
         "start": "2016-04-25",
+        "end": "2018-04-27",
         "keywords": [],
         "highlights": [
           "Migrated a monolithic application to microservices in Golang on AWS for higher availability, better testing, and simplier deployment.",
