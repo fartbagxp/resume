@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
   <title>Boris Ning</title>
-  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
   <style>body, html {
   padding-top:2.5em;
   margin:0;
@@ -255,9 +255,10 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
   color: #424242;
   
   margin-left:3.25em;
-  padding-left:0.5em;
   
-  border-left:1px solid #e0e0e0;
+  list-style-type: disc;
+  list-style-position: inside;
+  display: list-item;
   
 }
 
@@ -277,12 +278,13 @@ div.content-text.work-listing.education-listing > p:nth-child(2) {
 }
 
 .profiles-listing ul li, .profiles-listing ul li:first-child {
-  width:32%;
+  width:150%;
   font-weight: normal;
 }
 
 .work-content, .education-content {
   padding-top: .75em;
+  page-break-inside: avoid;
 }
 
 section.content.education-content > div > div.content-cat {
@@ -331,11 +333,13 @@ div.content-text.skills-listing > p > {
   .education-listing > .highlight {
     margin-left: 30px;
   }
-}</style>
+}
+</style>
   <style media="print">
 body, html {
   background-color: white;
   padding-top: 1.5em;
+  font-size: 104%;
 }
 
 .paper {
@@ -407,7 +411,7 @@ header p, .content-text, .work-listing p, .content-text ul li:first-child, .work
 }
 
 .profiles-listing ul li:first-child {
-  width:32%;
+  width:150%;
 }
 
 div.content-text.skills-listing > ul > li {
@@ -449,6 +453,41 @@ div.content-text.skills-listing > ul > li:first-child {
 
 .big-text {
   padding-top: 0;
+}
+
+.publication-listing p {
+  font-family: "Open Sans";
+  
+  color: #424242;
+  
+  margin-left:2em;
+  margin-top:0.45em;
+  margin-bottom: 0.45em;
+}
+
+.publication-listing > p:nth-child(2) {
+  margin-top:0.0em;
+}
+
+.publication-listing {
+  font-family: "Open Sans";
+  font-size:0.7em;
+  font-weight:400;
+  
+  color: #424242;
+  
+  margin-left:3.25em;
+  padding-left:0.5em;
+  
+  border-left:1px solid #e0e0e0;
+}
+
+.publication-content {
+  padding-top: .75em;
+}
+
+publication.content > div > div.content-text {
+  vertical-align: top;
 }</style>
 </head>
 <body>
@@ -460,7 +499,7 @@ div.content-text.skills-listing > ul > li:first-child {
               <p>
                 Boris Ning
               </p>
-              <p class="subtitle">Software Engineer</p>
+              <p class="subtitle">Site Reliability Engineer</p>
             </div>
           </div>
         </header>
@@ -474,22 +513,18 @@ div.content-text.skills-listing > ul > li:first-child {
               <div class="content-text">
                   <ul>
                     <li>Email</li>
-                    <li>borisyning@gmail.com</li>
+                    <li><a href="mailto:borisyning@gmail.com">borisyning@gmail.com</a></li>
                   </ul>
               </div>
             </div>
           </section>
-          <!-- LOCATION -->
+
               <section class="content">
                 <div class="row">
                   <div class="content-cat">
                     Location
                   </div>
                   <div class="content-text">
-                        <ul>
-                          <li>Postal Code & City</li>
-                          <li>20171 Herndon</li>
-                        </ul>
                       <ul>
                         <li>Region</li>
                         <li>Virginia</li>
@@ -497,72 +532,95 @@ div.content-text.skills-listing > ul > li:first-child {
                   </div>
                 </div>
               </section>
-        
+
                 <section class="content">
                   <div class="row">
                     <div class="content-cat big-text">
                         Work  Experience
-                          <p>2016-04-25 till 2018-04-27</p>
+                          <p>2022-04-05 to Present</p>
                     </div>
                     <div class="content-text work-listing education-listing">
-                          <p style="margin-top:2.4em;">
-                            <strong>Software Engineer - DevOps</strong>
-                            at <strong>Neustar:</strong>
+                          <p>
+                            <strong>Infrastructure Engineer</strong>
+                            at <strong>Centers for Disease and Prevention</strong>
                         </p>
-                        <p>Supported a customer facing DDOS protection platform while enhancing visibility to network traffic.</p>
-                          <p class="highlight">Migrated a monolithic application to microservices in Golang on AWS for higher availability, better testing, and simplier deployment.</p>
-                          <p class="highlight">Created continuous integration / continuous deployment pipeline using Ansible, Kubernetes, and Gitlab CI.</p>
-                          <p class="highlight">Built a network traffic application in NodeJS / React reusing the Vizceral project from Netflix for visualizing aggregating feeds from various network sensors</p>
-                          <p class="highlight">Automated scripts for detecting and resolving issues to eliminate costly pages from PagerDuty.</p>
-                          <p class="highlight">Identified traffic patterns with Neustar security operations center (SOC) to mitigate DDOS attacks.</p>
-                          <p class="highlight">Ensured proper monitoring for GRE tunnel failover in Juniper routers between primary and backup tunnel.</p>
+                        <p>Advisory role on cloud migration strategy and platform building for data modernization initiative</p>
+                          <p class="highlight">Promote DevSecOps through the practice of Infrastructure as Code (IaC) security</p>
                     </div>
                   </div>
                 </section>
                 <section class="content work-content">
                   <div class="row">
                     <div class="content-cat big-text">
-                          <p>2010-07-20 till 2016-04-11</p>
+                          <p>2020-10-22 to Present</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Senior Advisor</strong>
+                            at <strong>Social Security Administration</strong>
+                        </p>
+                        <p>Infrastructure engineering and Advisor for the redesign of ssa.gov</p>
+                          <p class="highlight">Supported the Office of the Chief Business Officer (OCBO) via beta.ssa.gov</p>
+                          <p class="highlight">Technical author for the assessment of ssa.gov authority to operate (ATO)</p>
+                          <p class="highlight">Implemented a technical solution to redesign the site from 60,000 pages to 40 pages.</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2018-07-10 to Present</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Digital Service Expert</strong>
+                            at <strong>Department of Veterans Affairs</strong>
+                        </p>
+                        <p>Site Reliability Engineering within the Office of the Chief Technology Officer</p>
+                          <p class="highlight">Built a monitoring system for a public Department of Defense (DoD) login system</p>
+                          <p class="highlight">Modernization and design of enterprise cloud environments for technology systems</p>
+                          <p class="highlight">Led Oncall for major incidents and handling of postmortems for a portfolio of IT systems</p>
+                          <p class="highlight">Design large scale hub-and-spoke network architecture for hundreds of engineering teams on AWS and Azure</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2016-04-25 to 2018-04-27</p>
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                          <p>
+                            <strong>Software Engineer - DevOps</strong>
+                            at <strong>Neustar</strong>
+                        </p>
+                        <p>Maintained the reliability of the customer DDoS protection platform through deep observability of the network traffic.</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="content work-content">
+                  <div class="row">
+                    <div class="content-cat big-text">
+                          <p>2010-07-20 to 2016-04-11</p>
                     </div>
                     <div class="content-text work-listing education-listing">
                           <p>
                             <strong>Software Engineer</strong>
-                            at <strong>The Boeing Company:</strong>
+                            at <strong>The Boeing Company</strong>
                         </p>
-                        <p>Developed high performance applications for embedded devices used in signal processing.</p>
-                          <p class="highlight">Led a team in research and development to exploit devices for security vulnerabilities.</p>
-                          <p class="highlight">Created a map application displaying analytics for commercial cell tower signal range.</p>
-                          <p class="highlight">Developed a web application for searching and filtering of device identifiers.</p>
-                          <p class="highlight">Enhanced libraries used for high performance C++ signal processing for cellular protocols.</p>
+                        <p>Developed a high performance real time embedded application in signal processing.</p>
                     </div>
                   </div>
                 </section>
-                <section class="content work-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>2009-07-01 till 2009-12-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p>
-                            <strong>Intern - Software Engineer</strong>
-                            at <strong>The Boeing Company:</strong>
-                        </p>
-                        <p>Supported test frameworks to increase test coverage over legacy applications.</p>
-                          <p class="highlight">Designed Matlab and LabVIEW scripts for controlling various lab equipments.</p>
-                          <p class="highlight">Prototyped and processed logs for common signal analysis.</p>
-                    </div>
-                  </div>
-                </section>
-
 
                 <section class="content">
                   <div class="row">
                     <div class="content-cat big-text">
                         Education
-                          <p>2011-02-04 till 2014-05-30</p>
+                          <p>2011-02-04 to 2014-05-30</p>
                     </div>
                     <div class="content-text work-listing education-listing">
-                          <p class="heading" style="margin-top:2.35em;">Johns Hopkins University</p>
+                          <p style="margin-top:0;" class="heading">Johns Hopkins University</p>
                         <p class="highlight">
                           Master:
                           <i>Computer Science </i>
@@ -573,10 +631,10 @@ div.content-text.skills-listing > ul > li:first-child {
                 <section class="content education-content">
                   <div class="row">
                     <div class="content-cat big-text">
-                          <p>2006-09-01 till 2010-05-28</p>
+                          <p>2006-09-01 to 2010-05-28</p>
                     </div>
                     <div class="content-text work-listing education-listing">
-                          <p class="heading">Rensselaer Polytechnic Institute</p>
+                          <p style="margin-top:0;" class="heading">Rensselaer Polytechnic Institute</p>
                         <p class="highlight">
                           Bachelor:
                           <i>Computer Science and Mathematics </i>
@@ -585,24 +643,69 @@ div.content-text.skills-listing > ul > li:first-child {
                   </div>
                 </section>
 
-              <section class="content">
+            <section class="content">
+
                 <div class="row">
                   <div class="content-cat big-text">
-                      Awards
-                      <p>2014 Team of the Year - Boeing N&amp;SS - E&amp;IS</p>
-                      <p style="margin-top:0.25em;">2015-02-01</p>
+                    Publications
+
+                      <p>2022-01-26</p>
                   </div>
-                  <div class="content-text work-listing">
-                      <strong><p class="heading">Boeing</p></strong>
-                      <p class="highlight">Part of a team that demonstrated key capabilities in multi-antenna digital signal processing.</p>
+
+                  <div class="content-text work-listing education-listing">
+                    <p>
+                      <p style="margin-top:0;" class="heading">Office of Management and Budget (OMB) Zero Trust Technical Reference Architecture</p>
+
+                      <p style="margin-top:0;" class="heading">Department of Homeland Security (DHS)</p>
+
+                      <p>Technical guidance for organizations to secure cloud migrations through considerations for shared services and cloud security posture management</p>
+                    <div class="profiles-listing">
+                    <ul>
+                        <li>
+                          <a href="https://www.cisa.gov/cloud-security-technical-reference-architecture">
+                            https://www.cisa.gov/cloud-security-technical-reference-architecture
+                          </a>
+                        </li>
+                    </ul>
+                    </div>
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class ="content publication-content"> 
+
+                <div class="row">
+                  <div class="content-cat big-text">
+
+                      <p>2020-07-01</p>
+                  </div>
+
+                  <div class="content-text work-listing education-listing">
+                    <p>
+                      <p style="margin-top:0;" class="heading">Trusted Internet Connections 3.0 Initiative</p>
+
+                      <p style="margin-top:0;" class="heading">Department of Homeland Security (DHS)</p>
+
+                      <p>A continuous series of guidance for improving internet points of presence and external network connections within an organization</p>
+                    <div class="profiles-listing">
+                    <ul>
+                        <li>
+                          <a href="https://www.cisa.gov/tic">
+                            https://www.cisa.gov/tic
+                          </a>
+                        </li>
+                    </ul>
+                    </div>
+                    </p>
                   </div>
                 </div>
               </section>
 
+
           <section class="content">
             <div class="row">
               <div class="content-cat">
-                Skills
+                Professional Skills Summary
               </div>
               <div class="content-text skills-listing">
                   <p>
@@ -611,7 +714,7 @@ div.content-text.skills-listing > ul > li:first-child {
                           Backend Development:
                         </strong>
                     </span>
-                      NodeJS, Java, Go, C++
+                      NodeJS, Java, Python, Golang, C++
                   </p>
                   <p>
                     <span class="name">
@@ -619,7 +722,7 @@ div.content-text.skills-listing > ul > li:first-child {
                           Cloud Development:
                         </strong>
                     </span>
-                      AWS, GCE, Kubernetes, Docker, Promethesus, Ansible
+                      AWS, GCE, Azure, Terraform, Ansible, Docker, Kubernetes, Prometheus
                   </p>
                   <p>
                     <span class="name">
@@ -627,7 +730,7 @@ div.content-text.skills-listing > ul > li:first-child {
                           Database:
                         </strong>
                     </span>
-                      Postgres, Redis, MongoDB
+                      Postgres, Redis, SQL, NoSQL
                   </p>
                   <p>
                     <span class="name">
@@ -635,13 +738,12 @@ div.content-text.skills-listing > ul > li:first-child {
                           Frontend Development:
                         </strong>
                     </span>
-                      Javascript, ReactJS, CSS, HTML
+                      Javascript, VueJS, CSS, HTML
                   </p>
               </div>
             </div>
           </section>
 
-  <!-- LANGUAGE -->
             <section class="content">
               <div class="row">
                 <div class="content-cat">
@@ -654,6 +756,10 @@ div.content-text.skills-listing > ul > li:first-child {
                 </div>
               </div>
             </section>
+
+
+
+
             <!-- PROFILES -->
               <section class="content profiles">
                 <div class="row">
@@ -663,8 +769,8 @@ div.content-text.skills-listing > ul > li:first-child {
                   <div class="content-text profiles-listing">
                     <ul>
                           <li>
-                            <a href="https://github.com/fartbagxp" target="_blank">
-                              GitHub
+                            <a href="https://github.com/boris-ning-usds" target="_blank">
+                              https://github.com/boris-ning-usds
                             </a>
                           </li>
                     </ul>
@@ -672,31 +778,6 @@ div.content-text.skills-listing > ul > li:first-child {
                 </div>
               </section>
 
-            <section class="content">
-              <div class="row">
-                <div class="content-cat">
-                  Interests
-                </div>
-                <div class="content-text skills-listing">
-                    <p>
-                      <span class="name">
-                          <strong>
-                            Vulnerability Testing:
-                          </strong>
-                      </span>
-                        Burp Suite, Kali Linux
-                    </p>
-                    <p>
-                      <span class="name">
-                          <strong>
-                            Signal exploration:
-                          </strong>
-                      </span>
-                        Software Defined Radios (SDR), 802.11 Wi-Fi, Bluetooth, Ham Radio
-                    </p>
-                </div>
-              </div>
-            </section>
 
         </div>
     </article>

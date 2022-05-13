@@ -127,3 +127,7 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/node,macos,linux,windows
+jsonresume-theme-paper
+
+out/*
+!out/resume.html
